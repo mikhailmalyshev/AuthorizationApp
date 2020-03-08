@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		97F39C9C24150065008D807B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F39C9B24150065008D807B /* AppDelegate.swift */; };
 		97F39C9E24150065008D807B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F39C9D24150065008D807B /* SceneDelegate.swift */; };
-		97F39CA024150065008D807B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F39C9F24150065008D807B /* ViewController.swift */; };
+		97F39CA024150065008D807B /* AuthorisationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F39C9F24150065008D807B /* AuthorisationVC.swift */; };
 		97F39CA324150065008D807B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F39CA124150065008D807B /* Main.storyboard */; };
 		97F39CA524150066008D807B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F39CA424150066008D807B /* Assets.xcassets */; };
 		97F39CA824150066008D807B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F39CA624150066008D807B /* LaunchScreen.storyboard */; };
+		97F39CB524150B6B008D807B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F39CB424150B6B008D807B /* User.swift */; };
+		97F39CB7241522A0008D807B /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F39CB6241522A0008D807B /* WelcomeVC.swift */; };
+		97F39CB9241522B3008D807B /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F39CB8241522B3008D807B /* AboutVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		97F39C9824150065008D807B /* AuthorizationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthorizationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F39C9B24150065008D807B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97F39C9D24150065008D807B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		97F39C9F24150065008D807B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97F39C9F24150065008D807B /* AuthorisationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorisationVC.swift; sourceTree = "<group>"; };
 		97F39CA224150065008D807B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97F39CA424150066008D807B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97F39CA724150066008D807B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97F39CA924150066008D807B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F39CB424150B6B008D807B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		97F39CB6241522A0008D807B /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		97F39CB8241522B3008D807B /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,58 @@
 		97F39C9A24150065008D807B /* AuthorizationApp */ = {
 			isa = PBXGroup;
 			children = (
-				97F39C9B24150065008D807B /* AppDelegate.swift */,
-				97F39C9D24150065008D807B /* SceneDelegate.swift */,
-				97F39C9F24150065008D807B /* ViewController.swift */,
-				97F39CA124150065008D807B /* Main.storyboard */,
-				97F39CA424150066008D807B /* Assets.xcassets */,
-				97F39CA624150066008D807B /* LaunchScreen.storyboard */,
-				97F39CA924150066008D807B /* Info.plist */,
+				97F39CB3241502CF008D807B /* Models */,
+				97F39CAF24150135008D807B /* SupportingFiles */,
+				97F39CB12415021A008D807B /* ViewControllers */,
+				97F39CB02415014F008D807B /* Storyboards */,
+				97F39CB2241502BD008D807B /* Sourse */,
 			);
 			path = AuthorizationApp;
+			sourceTree = "<group>";
+		};
+		97F39CAF24150135008D807B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				97F39C9B24150065008D807B /* AppDelegate.swift */,
+				97F39C9D24150065008D807B /* SceneDelegate.swift */,
+				97F39CA924150066008D807B /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		97F39CB02415014F008D807B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				97F39CA124150065008D807B /* Main.storyboard */,
+				97F39CA624150066008D807B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		97F39CB12415021A008D807B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				97F39C9F24150065008D807B /* AuthorisationVC.swift */,
+				97F39CB6241522A0008D807B /* WelcomeVC.swift */,
+				97F39CB8241522B3008D807B /* AboutVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		97F39CB2241502BD008D807B /* Sourse */ = {
+			isa = PBXGroup;
+			children = (
+				97F39CA424150066008D807B /* Assets.xcassets */,
+			);
+			path = Sourse;
+			sourceTree = "<group>";
+		};
+		97F39CB3241502CF008D807B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				97F39CB424150B6B008D807B /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97F39CA024150065008D807B /* ViewController.swift in Sources */,
+				97F39CB524150B6B008D807B /* User.swift in Sources */,
+				97F39CB7241522A0008D807B /* WelcomeVC.swift in Sources */,
+				97F39CB9241522B3008D807B /* AboutVC.swift in Sources */,
+				97F39CA024150065008D807B /* AuthorisationVC.swift in Sources */,
 				97F39C9C24150065008D807B /* AppDelegate.swift in Sources */,
 				97F39C9E24150065008D807B /* SceneDelegate.swift in Sources */,
 			);
@@ -286,7 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDRH34Y5Z9;
-				INFOPLIST_FILE = AuthorizationApp/Info.plist;
+				INFOPLIST_FILE = AuthorizationApp/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDRH34Y5Z9;
-				INFOPLIST_FILE = AuthorizationApp/Info.plist;
+				INFOPLIST_FILE = AuthorizationApp/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
