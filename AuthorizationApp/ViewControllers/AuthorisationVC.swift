@@ -14,28 +14,15 @@ class AuthorisationVC: UIViewController {
     @IBOutlet weak var password: UITextField!
     
     var user : User?
-    var loginFromAuthorisationVC: String!
-    var passwordFromAuthorisationVC: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        login.text = loginFromAuthorisationVC
-        password.text = passwordFromAuthorisationVC
         
         user = User(name: "Misha", password: "Password")
         login.delegate = self as? UITextFieldDelegate
         password.delegate = self as? UITextFieldDelegate
     }
 
-    @IBAction func forgotUserNameButtonPressed() {
-    openHelp(title: "I can help you!", text: "Your name is Misha!")
-        
-    }
-    @IBAction func forgotPasswordButtonPressed() {
-        openHelp(title: "I can help you!", text: "Your password - Password!")
-        
-    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
        if login.text == "" {
            openHelp(title: "Login is empty", text: "Please enter the login")
@@ -53,6 +40,15 @@ class AuthorisationVC: UIViewController {
         let tabBarController = segue.destination as! UITabBarController
         let vcWelcome = tabBarController.viewControllers?.first as! WelcomeVC
         vcWelcome.user = user
+    }
+    
+    @IBAction func forgotUserNameButtonPressed() {
+    openHelp(title: "I can help you!", text: "Your name is Misha!")
+        
+    }
+    @IBAction func forgotPasswordButtonPressed() {
+        openHelp(title: "I can help you!", text: "Your password - Password!")
+        
     }
     
 }
