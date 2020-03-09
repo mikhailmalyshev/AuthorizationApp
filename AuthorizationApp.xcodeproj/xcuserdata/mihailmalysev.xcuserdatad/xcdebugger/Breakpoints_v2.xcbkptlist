@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "66B8421C-AC7B-484A-B0E5-E5E53DE83089"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABB4E0A2-A3B6-43ED-B94B-26FE6CC415F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AuthorizationApp/ViewControllers/AuthorisationVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "ABB4E0A2-A3B6-43ED-B94B-26FE6CC415F9 - 18b19abc9546779d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AuthorizationApp.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AuthorizationApp.ViewController"
+                  moduleName = "AuthorizationApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihailmalysev/Desktop/Project%20Xcode/AuthorizationApp/AuthorizationApp/ViewControllers/AuthorisationVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "ABB4E0A2-A3B6-43ED-B94B-26FE6CC415F9 - f6e178bc59f4ac0e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AuthorizationApp.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AuthorizationApp.ViewController"
+                  moduleName = "AuthorizationApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihailmalysev/Desktop/Project%20Xcode/AuthorizationApp/AuthorizationApp/ViewControllers/AuthorisationVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "182">
+               </Location>
+               <Location
+                  uuid = "ABB4E0A2-A3B6-43ED-B94B-26FE6CC415F9 - f34bfa4606cba572"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AuthorizationApp.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AuthorizationApp.ViewController&gt;"
+                  moduleName = "AuthorizationApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihailmalysev/Desktop/Project%20Xcode/AuthorizationApp/AuthorizationApp/ViewControllers/AuthorisationVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "ABB4E0A2-A3B6-43ED-B94B-26FE6CC415F9 - 2c9f0e2f992ad001"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AuthorizationApp.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AuthorizationApp.ViewController&gt;"
+                  moduleName = "AuthorizationApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihailmalysev/Desktop/Project%20Xcode/AuthorizationApp/AuthorizationApp/ViewControllers/AuthorisationVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  uuid = "ABB4E0A2-A3B6-43ED-B94B-26FE6CC415F9 - 5b4025db64ded459"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AuthorizationApp.ViewController.__deallocating_deinit"
+                  moduleName = "AuthorizationApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihailmalysev/Desktop/Project%20Xcode/AuthorizationApp/AuthorizationApp/ViewControllers/AuthorisationVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
