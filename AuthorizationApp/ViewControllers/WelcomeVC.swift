@@ -15,11 +15,7 @@ class WelcomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeLabel.text = "Welcome, \(user!.name)!"
-    }
-    
-    @IBAction func logOutButtonPressed() {
-        dismiss(animated: true)
+        welcomeLabel.text = "Welcome, \(user?.name ?? "User")!"
     }
     
 }

@@ -6,7 +6,13 @@
 //  Copyright © 2020 Mikhail Malyshev. All rights reserved.
 //
 
+import Foundation
+
 struct User {
     let name: String
     let password: String
+    
+    static func getUserData() -> User {
+        User(name: "Misha", password: "Password")
+    }
 }

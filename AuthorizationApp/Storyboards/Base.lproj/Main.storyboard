@@ -12,11 +12,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="AuthorisationVC" customModule="AuthorizationApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="7Ul-Rg-biC">
-                                <rect key="frame" x="25" y="180" width="270" height="188"/>
+                                <rect key="frame" x="25" y="190" width="270" height="188"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dze-zo-vox">
                                         <rect key="frame" x="0.0" y="0.0" width="270" height="34"/>
@@ -32,7 +32,8 @@
                                         <rect key="frame" x="0.0" y="110" width="270" height="30"/>
                                         <state key="normal" title="Log In"/>
                                         <connections>
-                                            <segue destination="ZJh-3U-bHf" kind="show" identifier="" id="zXA-Qs-jYG"/>
+                                            <action selector="logInButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="U3c-IA-GR7"/>
+                                            <segue destination="ZJh-3U-bHf" kind="show" identifier="logIn" id="zXA-Qs-jYG"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Tqd-6C-NMf">
@@ -103,8 +104,7 @@
                                         <rect key="frame" x="116.5" y="148" width="55" height="30"/>
                                         <state key="normal" title="Log Out"/>
                                         <connections>
-                                            <action selector="logOutButtonPressed" destination="tEb-jd-KBF" eventType="touchUpInside" id="iNJ-f7-zBN"/>
-                                            <segue destination="BYZ-38-t0r" kind="presentation" id="zPk-qp-bAh"/>
+                                            <segue destination="Ktd-Tf-Xgd" kind="unwind" unwindAction="unwindSegueWithSegue:" id="8iO-ba-iOe"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -125,6 +125,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m3z-ve-8fF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Ktd-Tf-Xgd" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2764" y="-310"/>
         </scene>
